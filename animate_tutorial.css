@@ -1,0 +1,43 @@
+body{
+    margin: auto;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: url("https://b2bblogassets.airtel.in/wp-content/uploads/2022/06/startup-company-scaled.jpg") center;
+    background-size: cover;
+    position: relative;
+    animation-name: mulbg;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+  
+}
+/*Animation Created Successfully*/
+@keyframes mulbg {
+   0%{
+    background: url("https://b2bblogassets.airtel.in/wp-content/uploads/2022/06/startup-company-scaled.jpg") center;
+    background-size: cover; 
+   }
+   25%{
+    background: url("https://img.indiafilings.com/learn/wp-content/uploads/2015/07/12011038/starting-a-business-in-India-for-foreign-company-1024x683.jpg") center;
+    background-size: cover; 
+   
+   }
+   50%{
+    background: url("https://www.jobstreet.com.ph/career-resources/wp-content/uploads/sites/3/2014/07/Is-the-Company-Youre-Working-for-Stable.jpg") center;
+    background-size: cover; 
+    
+   }
+   75%{
+    background: url("https://data.si/en/wp-content/uploads/2018/05/business-address-slovenia-europe-800x445.jpg") center;
+    background-size: cover;
+   }
+   100%{
+    background: url("https://vakilsearch.com/blog/wp-content/uploads/2022/05/section8-company-do-business.jpg") center;
+    background-size: cover;
+   
+   }
+}  
